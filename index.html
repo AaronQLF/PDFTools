@@ -3,21 +3,29 @@
 
 <head>
     <link rel="stylesheet" href="assets/styles/style.css">
+
     <meta charset="UTF-8">
     <title>StudyTools</title>
 </head>
 
 <body>
+    <div id="app">
+        <div id="WiDrop">
+            <div class="inner-box">
 
-    <div id = "app">
-        <div id = "PdfAnnotater">
-            <h1>I am</h1>
+            </div>
         </div>
-        <div id = "WiDrop"></div>
-        <div id = "Tbd"></div>
-
+        <div id="Tbd">
+            <div class="inner-box"></div>
+        </div>
+        <div id="PdfAnnotater">
+            <div class="inner-box">
+                <input type="file" id="fileInput" />
+                <div id="pdfViewer"></div>
+            </div>
+        </div>
     </div>
-    <script src="src/Main.js"></script>
+    <script type="module" src="src/Main.js"></script>
 </body>
 
 </html>

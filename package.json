@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "gsap": "^3.12.5",
     "pdf-lib": "^1.17.1",
     "pdfjs": "^2.5.3"
   }

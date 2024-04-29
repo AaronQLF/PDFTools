@@ -20,12 +20,15 @@
         </div>
         <div id="PdfAnnotater">
             <div class="inner-box">
-                <input type="file" id="fileInput" />
-                <div id="pdfViewer"></div>
+                <div id="drop_zone">
+                    <p>Drag and drop your file here</p>
+                    <script type="module" src="/src/AnnotateHelper.js"></script>
+                    <div id="pdfViewer"></div>
+                    <script src="https://unpkg.com/pdf-lib@1.16.0/dist/pdf-lib.js"></script>
+                </div>
             </div>
         </div>
-    </div>
-    <script type="module" src="src/Main.js"></script>
+        <script type="module" src="src/Main.js"></script>
 </body>
 
 </html>
